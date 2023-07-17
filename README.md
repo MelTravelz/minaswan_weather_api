@@ -8,19 +8,25 @@
 ---
 
 [x] Test `Weather API` endpoint with Postman
+
 [x] Create local & remote repositories
+
 [x] Setup repo with gems, secrets, PR template
 
 [x] Service spec test
+
 [x] Service 
 
 [x] Ensure VCR/fixture files are working correctly
 
 [x] Request spec test
+
 [x] Controller & Route
 
 [x] Facade spec test
+
 [x] Facade
+
 [x] possibly create PORO or use OpenStruct depending on need
 
 [x] Serializer
