@@ -1,5 +1,5 @@
 class WeatherService
-  def fetch_temp(city_name)
+  def fetch_all_weather_info(city_name)
     response = conn.get("v1/forecast.json") do |faraday|
       faraday.params["q"] = city_name
       faraday.params["days"] = 1
