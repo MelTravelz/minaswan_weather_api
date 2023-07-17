@@ -5,6 +5,8 @@
     - therefore, we can convert F to C
 - Assuming we are allowed to use OpenStruct
 
+---
+
 [x] Test `Weather API` endpoint with Postman
 [x] Create local & remote repositories
 [x] Setup repo with gems, secrets, PR template
@@ -24,3 +26,5 @@
 [x] Serializer
 
 [x] don't forget to lint all work
+
+[x] Test localhost endpoint "/api/v1/weather?city_name="Istanbul" with Postman
