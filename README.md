@@ -1,24 +1,19 @@
-# README
+# Planning & Pseudocode
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[x] Test `Weather API` endpoint with Postman
+[x] Create local & remote repositories
+[x] Setup repo with gems, secrets, PR template
 
-Things you may want to cover:
+[] Service spec test
+[] Service 
 
-* Ruby version
+[] Ensure VCR/fixture files are working correctly
 
-* System dependencies
+[] Facade spec test
+[] Facade
+[] possibly create PORO or use OpenStruct
 
-* Configuration
+[] Request spec test
+[] Controller & Route
+[] Serializer
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
