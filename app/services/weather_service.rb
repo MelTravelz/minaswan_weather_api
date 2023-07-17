@@ -8,6 +8,7 @@ class WeatherService
   end
 
   private
+
   def conn
     Faraday.new(url: "http://api.weatherapi.com/") do |faraday|
       faraday.headers['Content-Type'] = 'application/json'
