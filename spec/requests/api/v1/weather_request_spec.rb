@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe "/api/v1/weather" do
+RSpec.describe "/api/v1/weather", type: :request do
   describe "#index" do
     describe "happy path tests" do
       it "returns a 'weather' type json object" do
-        get "/api/v1/weather?location=Istanbul"
+        get "/api/v1/weather?city_name=Istanbul"
 
         parsed_data = JSON.parse(response.body, symbolize_names: true)
         
